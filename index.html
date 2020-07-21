@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="./static//favicon.ico" rel="external nofollow" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/loading.css">
+    <title>晨杰的简历^_^</title>
+</head>
+
+<body>
+    <!-- Loading动画 -->
+    <!-- <div id="guide" class="guide active">
+        <div class="loading"></div>
+        <p class="textLoading">L o a d i n g . . .</p>
+    </div> -->
+    <div id="topNavBar" class="topNavBar clearfix">
+        <a href="" class="logo">
+            <span class="eden">KEEP!!</span>
+            <span class="sheng">CJW</span>
+        </a>
+        <nav class="menu">
+            <ul class="clearfix">
+                <li class="highlight"><a href="#about">关 于</a></li>
+                <li><a href="#skills">技 能</a></li>
+                <li class="menuTrigger">
+                    <a href="#portfolio">作 品</a>
+                    <ul class="submenu">
+                        <li>参 与 项 目</li>
+                        <li>框 架</li>
+                        <li>CSS 动 画</li>
+                        <li>前 后 端 分 离</li>
+                    </ul>
+                </li>
+                <li><a href="#message">留 言</a></li>
+                <li class="menuTrigger">
+                    <a href="#story">经 历</a>
+                    <ul class="submenu">
+                        <li>教 育 经 历</li>
+                        <li>工 作 与 求 职</li>
+                        <li>学 习 路 线</li>
+                    </ul>
+                </li>
+                <li><a href="#github">G I T</a></li>
+                <li><a href="#blog">博 客</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="banner">
+        <div class="banner-in"></div>
+    </div>
+    <main>
+        <div data-high id="about" class="userCard">
+            <div class="pictureAndText clearfix">
+                <div class="picture">
+                    <img src="./img/github头像.png" style="width: 290px; height: 345px;" alt="touXiang">
+                </div>
+                <div class="text">
+                    <span class="welcome">HELLO
+                        <span class="triangle"></span>
+                    </span>
+                    <h1>王晨杰</h1>
+                    <p>武汉大学硕士</p>
+                    <hr>
+                    <dl class="clearfix">
+                        <dt>年 龄</dt>
+                        <dd>26</dd>
+                        <dt>地 址</dt>
+                        <dd>湖北武汉</dd>
+                        <dt>邮 箱</dt>
+                        <dd>cjwang401@gmail.com</dd>
+                        <dt>电 话</dt>
+                        <dd>+86 111 0000 1111</dd>
+                        <dt>时 律</dt>
+                        <dd>Till 3.2018</dd>
+                    </dl>
+                </div>
+            </div>
+            <footer class="media">
+                <a href="">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-github"></use>
+                    </svg>
+                </a>
+                <a href="">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-zhihu"></use>
+                    </svg>
+                </a>
+                <a href="">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-segmentfault"></use>
+                    </svg>
+                </a>
+                <a href="">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-CN_csdnnet"></use>
+                    </svg>
+                </a>
+                <a href="">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-weibo"></use>
+                    </svg>
+                </a>
+                <a href="">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-ins"></use>
+                    </svg>
+                </a>
+            </footer>
+        </div>
+
+        <p class="download">
+            <a href="./download/download.pdf" class="downloadResume" target="_blank" download="">下 载 P D F 简 历</a>
+        </p>
+        <p class="selfIntroduction">
+            我是一个充满梦想的boy。 <br>
+            在追梦的路上，会有各种不同的故事，这就是我。<br>
+            不断学习，不断充实。
+        </p>
+
+    </main>
+
+    <section data-high id="skills" class="skills">
+        <h2>个 人 技 能</h2>
+        <ol class="clearfix">
+            <li>
+                <h3>HTML 5 &amp; CSS 3</h3>
+                <div class="progressBar">
+                    <div class="progress" id="proOne"></div>
+                </div>
+            </li>
+            <li>
+                <h3>JavaScript</h3>
+                <div class="progressBar">
+                    <div class="progress" id="proTwo"></div>
+                </div>
+            </li>
+            <li>
+                <h3>jQuery</h3>
+                <div class="progressBar">
+                    <div class="progress" id="proThree"></div>
+                </div>
+            </li>
+            <li>
+                <h3>Vue</h3>
+                <div class="progressBar">
+                    <div class="progress" id="proFour"></div>
+                </div>
+            </li>
+            <li>
+                <h3>React</h3>
+                <div class="progressBar">
+                    <div class="progress" id="proFive"></div>
+                </div>
+            </li>
+            <li>
+                <h3>HTTP</h3>
+                <div class="progressBar">
+                    <div class="progress" id="proSix"></div>
+                </div>
+            </li>
+        </ol>
+    </section>
+
+    <section data-high id="portfolio" class="portfolio">
+        <h2>作 品 集</h2>
+        <div id="slideWrapper">
+            <nav class="clearfix">
+                <ol id="buttons">
+                    <li id="portfolioJQuery" class="active">jQuery</li>
+                    <li id="portfolioJS">JS &amp; Cookie</li>
+                    <li id="portfolioCanvas">Canvas</li>
+                    <li id="portfolioAJAX">AJAX &amp; JSON</li>
+                </ol>
+                <div class="bar">
+                    <div id="barInner" class="state0"></div>
+                </div>
+            </nav>
+            <div class="windows">
+                <svg id="left" class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-left"></use>
+                </svg>
+                <svg id="right" class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-right"></use>
+                </svg>
+                <div id="slides" class="images">
+                    <div>
+                        <svg class="icon jqueryLogo" aria-hidden="true">
+                            <use xlink:href="#icon-jquery1"></use>
+                        </svg>
+                        <svg class="icon timeLogo" aria-hidden="true">
+                            <use xlink:href="#icon-time"></use>
+                        </svg>
+                        <div class="slidesInner">
+                            <span>无 缝 轮 播</span>
+                        </div>
+                        <svg class="icon beginCode" aria-hidden="true">
+                            <use xlink:href="#icon-github-skills"></use>
+                        </svg>
+                        <svg class="icon preview" aria-hidden="true">
+                            <use xlink:href="#icon-fangdajing"></use>
+                        </svg>
+                        <img src="./img/demo-slide.png" alt="Slide" width=930>
+                    </div>
+                    <div>
+                        <svg class="icon jsLogo" aria-hidden="true">
+                            <use xlink:href="#icon-java-script"></use>
+                        </svg>
+                        <svg class="icon cookieLogo" aria-hidden="true">
+                            <use xlink:href="#icon-huoquHTMLCookiezhi-"></use>
+                        </svg>
+                        <div class="slidesInner">
+                            <span>导 航 网 站</span>
+                        </div>
+                        <svg class="icon beginCode" aria-hidden="true">
+                            <use xlink:href="#icon-github-skills"></use>
+                        </svg>
+                        <svg class="icon preview" aria-hidden="true">
+                            <use xlink:href="#icon-fangdajing"></use>
+                        </svg>
+                        <img src="./img/demo-nav.jpeg" alt="Nav" width=930>
+                    </div>
+                    <div>
+                        <svg class="icon jsLogo" aria-hidden="true">
+                            <use xlink:href="#icon-java-script"></use>
+                        </svg>
+                        <svg class="icon canvasLogo" aria-hidden="true">
+                            <use xlink:href="#icon-canvas"></use>
+                        </svg>
+                        <div class="slidesInner">
+                            <span>在 线 画 板</span>
+                        </div>
+                        <svg class="icon beginCode" aria-hidden="true">
+                            <use xlink:href="#icon-github-skills"></use>
+                        </svg>
+                        <svg class="icon preview" aria-hidden="true">
+                            <use xlink:href="#icon-fangdajing"></use>
+                        </svg>
+                        <img src="./img/demo-canvas.png" alt="Canvas" width=930>
+                    </div>
+                    <div>
+                        <svg class="icon ajaxLogo" aria-hidden="true">
+                            <use xlink:href="#icon-ajax"></use>
+                        </svg>
+                        <svg class="icon jsonLogo" aria-hidden="true">
+                            <use xlink:href="#icon-json01"></use>
+                        </svg>
+                        <div class="slidesInner" id="longType">
+                            <span>同 源 &amp; 跨 域</span>
+                        </div>
+                        <svg class="icon beginCode" aria-hidden="true">
+                            <use xlink:href="#icon-github-skills"></use>
+                        </svg>
+                        <svg class="icon preview" aria-hidden="true">
+                            <use xlink:href="#icon-fangdajing"></use>
+                        </svg>
+                        <img src="./img/demo-ajax.png" alt="AJAX" width=930>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section data-high class="message" id="message">
+        <h2>留 言 板</h2>
+        <ol id="messageList">
+            <div>
+                <input type="text" placeholder="搜 索 · · · · · · （当然啦，这个功能还没有实现奥！）" id="searchMessage">
+                <svg class="icon jsonLogo" aria-hidden="true" id="searchLogo">
+                    <use xlink:href="#icon-search"></use>
+                </svg>
+            </div>
+            <form action="" id="postMessageForm" class="postMessageForm">
+                <input type="text" placeholder="昵 称" name="name" class="nameInput">
+                <input type="text" placeholder="内 容" name="content" class="contentInput">
+                <input type="submit" value="提 交" class="submitButton">
+                <div><span>请 注 意 ：您 的 昵 称 和 内 容 不 可 为 空 或 以 空 格 开 头 哦 ！</span></div>
+            </form>
+            <svg class="icon jsonLogo" aria-hidden="true" id="upLogo">
+                <use xlink:href="#icon-uparrow"></use>
+            </svg>
+            <svg class="icon jsonLogo" aria-hidden="true" id="downLogo">
+                <use xlink:href="#icon-downarrow"></use>
+            </svg>
+        </ol>
+        
+    </section>
+
+</body>
+
+<script src="https://cdn.bootcss.com/tween.js/r14/Tween.min.js"></script>
+<script src="./js/jquery-3.4.1.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/leancloud-storage@4.0.0/dist/av-min.js"></script>
+<script src="./js/main.js"></script>
+<script src="./js/slide-control.js"></script>
+<script src="./js/message.js"></script>
+<script src="//at.alicdn.com/t/font_1492710_aglra84q7jp.js"></script>
+<script src="//at.alicdn.com/t/font_1471429_epr33qww6s.js"></script>
+<script src="//at.alicdn.com/t/font_1510069_5tcjcj6zz4h.js"></script>
+<script src="//at.alicdn.com/t/font_1534658_fqs7f2dxitw.js"></script>
+
+</html>
